@@ -1,0 +1,298 @@
+.dropdown-item:hover {
+  background-color: #1d2125;
+}
+
+.fa-shopping-cart {
+  color: #fff;
+  margin-top: 0px;
+}
+
+.fa-search {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.fa-heart {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.carousel-caption h5 {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  top: 2rem;
+}
+
+.slider-btn {
+  margin-top: 30px;
+}
+
+.box {
+  width: 300px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 25px;
+  margin-top: 80px;
+  margin-bottom: 115px;
+}
+
+.slide-img {
+  height: 450px;
+  position: relative;
+}
+
+.slide-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.texty {
+  padding-top: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: rgb(48, 48, 48);
+  }
+  p {
+    font-family: 'Didact Gothic';
+    font-style: italic;
+    color: rgb(48, 48, 48);
+  }
+}
+
+.detail-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-family: calibri;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  a {
+    color: #222222;
+    margin: 0px 0px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+    text-decoration: none;
+  }
+  span {
+    color: rgba(26, 26, 26, 0.5);
+  }
+}
+
+.harga {
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: Poppins;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.col-md-3 {
+  padding-right: 0px;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(92, 95, 236, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-btn {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #252525;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: calibri;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.buy-btn:hover {
+  color: #fff;
+  background-color: #f15fa3;
+  transition: all ease 0.3s;
+}
+
+.overlay {
+  visibility: hidden;
+}
+
+.slide-img:hover .overlay {
+  visibility: visible;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container1 {
+  width: 100%;
+  letter-spacing: 1px;
+  h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: rgb(48, 48, 48);
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Didact Gothic';
+    font-style: italic;
+    color: rgb(48, 48, 48);
+  }
+}
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 70px;
+  img {
+    width: 100%;
+  }
+  .product-bottom {
+    .fa,
+    .far,
+    .fas {
+      color: #ebb400;
+      font-size: 10px;
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    p {
+      margin-top: -8px;
+    }
+    h5 {
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  }
+  .overlayer {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 265%;
+    margin-left: 0;
+    width: 0px;
+    margin-left: -100px;
+  }
+  .product-top:hover .overlayer {
+    opacity: 1;
+    margin-left: 3%;
+    transition: 0.5s;
+  }
+  .overlayer2 {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 333%;
+    margin-left: 0;
+    width: 0px;
+    margin-left: -100px;
+  }
+  .product-top:hover .overlayer2 {
+    opacity: 1;
+    margin-left: 3%;
+    transition: 0.5s;
+  }
+}
+.overlayer .btn {
+  margin-bottom: 10px;
+  width: 40px;
+}
+.overlayer2 .btn {
+  margin-bottom: 10px;
+  width: 40px;
+}
+
+@media (max-width: 991px) {
+  .carousel-inner {
+    bottom: 1px;
+  }
+  .texty {
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+  .box {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .nav-icon {
+    display: none;
+  }
+  .overlayer {
+    display: none;
+  }
+  .row .product-top:hover .overlayer {
+    display: none;
+  }
+  .overlayer2 {
+    display: none;
+  }
+  .row .product-top:hover .overlayer2 {
+    display: none;
+  }
+  .container1 {
+    margin-top: 55px;
+  }
+  .row {
+    margin-top: 35px;
+  }
+
+  .col-md-3 {
+    padding-right: 0px;
+  }
+}
